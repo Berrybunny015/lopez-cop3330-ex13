@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
 
-        System.out.println("\nWhat is the principal amount? "); //ask the user for the principal
+        System.out.println("\nWhat is the principal amount? "); //ask the user for the principal amount
         Scanner principalInput = new Scanner(System.in); //scan for the principal
         double principalAmount = principalInput.nextDouble();
 
